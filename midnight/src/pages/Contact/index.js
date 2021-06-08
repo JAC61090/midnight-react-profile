@@ -22,7 +22,7 @@ function Contact() {
         </a>
       </h3>
 
-      <h1>How to contact me?</h1>
+      <h1>Methods contact me</h1>
     </div>
   );
 }

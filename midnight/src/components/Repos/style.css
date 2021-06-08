@@ -1,0 +1,54 @@
+body {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+thead button {
+  border: 0;
+  border-radius: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  padding: 0.5em;
+  margin-bottom: 1px;
+}
+
+thead button.ascending::after {
+  content: "👇";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+thead button.descending::after {
+  content: "☝️";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+tbody td {
+  padding: 0.5em;
+  border-bottom: 1px solid rgb(219, 209, 209);
+}
+
+tbody tr:hover {
+  background-color: rgb(92, 92, 92);
+}
+
+td {
+  font-size: 20px;
+  background-color: rgb(44, 143, 105);
+}
+
+.tdName {
+  font-size: 28px;
+}

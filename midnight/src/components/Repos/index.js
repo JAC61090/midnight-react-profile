@@ -84,7 +84,6 @@ const ProductTable = (props) => {
               Name
             </button>
           </th>
-
           <th>Repository URL</th>
         </tr>
       </thead>

@@ -5,7 +5,7 @@ function FootReturn() {
   return (
     <div>
       <ModalFooter bg="light" expand="lg">
-        Salutations!
+        Farewell!
       </ModalFooter>
     </div>
   );
