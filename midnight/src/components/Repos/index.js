@@ -57,7 +57,52 @@ function urlHandler(input) {
     url = "N/A";
     return;
   } else {
-    url = "Deployed App";
+    url = "Repo Link to Deployable App";
     return input;
   }
 }
+
+const ProductTable = (props) => {
+  // console.log(props);
+  const { items, requestSort, sortConfig } = useSortableData(props.products);
+  const getClassNamesFor = (name) => {
+    if (!sortConfig) {
+      return;
+    }
+    return sortConfig.key === name ? sortConfig.direction : undefined;
+  };
+  return (
+    <table>
+      <thead>
+        <tr>
+          <th>
+            <button
+              type="button"
+              onClick={() => requestSort("name")}
+              className={getClassNamesFor("name")}
+            >
+              Name
+            </button>
+          </th>
+
+          <th>Repository URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        {items.map((item, i) => (
+          <tr key={i}>
+            <td className={"tdName"}>{item.name}</td>
+            <td>{item.desc}</td>
+
+            <td>
+              <a href={dUrlHandler(item.depUrl)}>{dUrl}</a>
+            </td>
+            <td>
+              <a href={"https" + urlHandler(item.url)}>{url}</a>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
+};
