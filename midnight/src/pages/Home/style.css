@@ -1,0 +1,22 @@
+div {
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(218, 255, 213);
+  font-size: 25px;
+}
+
+body p {
+  background-color: rgb(189, 189, 189);
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.credit {
+  background-color: transparent;
+  color: rgb(79, 76, 247);
+  font-size: 23px;
+}
