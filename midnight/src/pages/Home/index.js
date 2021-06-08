@@ -15,7 +15,7 @@ function Home() {
           <br></br>
           <div>
           
-          <img style={{  width:"30%", height: "auto", borderRadius:"50% 50% 0% 50%"}} src={me} alt="Jason Carrazco"/>
+          <img style={{  width:"30%", height: "auto", borderRadius:"50% 0% 50% 0%"}} src={me} alt="Jason Carrazco"/>
           <br></br>
           </div>
           <br></br>

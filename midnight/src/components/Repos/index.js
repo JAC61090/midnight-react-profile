@@ -106,3 +106,27 @@ const ProductTable = (props) => {
     </table>
   );
 };
+
+export default function App(data) {
+  const [employees, setEmployees] = useState([]);
+
+  useEffect(() => {
+    // console.log(repos);
+    repos
+
+      .then((json) =>
+        // console.log(json.data)
+        json.data.map((data) => ({
+          name: `${data.full_name.substring(data.full_name.indexOf("/") + 1)}`,
+          url: data.git_url.substring(data.git_url.indexOf(":")),
+          desc: data.description,
+          depUrl: data.homepage,
+        }))
+      )
+      .then((newData) => setEmployees(newData))
+
+      .catch((err) => console.log(err));
+  }, []);
+
+  return <ProductTable products={employees} />;
+}
