@@ -1,7 +1,6 @@
 # midnight-react-profile
-- deployed link ( )
+- deployed link (https://jac61090.github.io/midnight-react-profile/#/ )
 - https://github.com/JAC61090/midnight-react-profile.git
-- 
 
 # Unit 20 React Homework: React Portfolio
 
