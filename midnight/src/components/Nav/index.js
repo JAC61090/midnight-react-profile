@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function NavReturn() {
   return (
@@ -10,9 +11,9 @@ function NavReturn() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+            <Link to='/'>Home</Link>
+            <Link to='/contact'> Contact</Link>
+            <Link to='/portfolio'> Portfolio</Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
