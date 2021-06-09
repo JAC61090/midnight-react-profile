@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/midnight-react-profile/static/css/main.8093922a.chunk.css",
+    "main.js": "/midnight-react-profile/static/js/main.6012b781.chunk.js",
+    "main.js.map": "/midnight-react-profile/static/js/main.6012b781.chunk.js.map",
+    "runtime-main.js": "/midnight-react-profile/static/js/runtime-main.04c53363.js",
+    "runtime-main.js.map": "/midnight-react-profile/static/js/runtime-main.04c53363.js.map",
+    "static/css/2.4f8976c6.chunk.css": "/midnight-react-profile/static/css/2.4f8976c6.chunk.css",
+    "static/js/2.07582f86.chunk.js": "/midnight-react-profile/static/js/2.07582f86.chunk.js",
+    "static/js/2.07582f86.chunk.js.map": "/midnight-react-profile/static/js/2.07582f86.chunk.js.map",
+    "index.html": "/midnight-react-profile/index.html",
+    "static/css/2.4f8976c6.chunk.css.map": "/midnight-react-profile/static/css/2.4f8976c6.chunk.css.map",
+    "static/css/main.8093922a.chunk.css.map": "/midnight-react-profile/static/css/main.8093922a.chunk.css.map",
+    "static/js/2.07582f86.chunk.js.LICENSE.txt": "/midnight-react-profile/static/js/2.07582f86.chunk.js.LICENSE.txt",
+    "static/media/me-cropped.67c1d420.jpg": "/midnight-react-profile/static/media/me-cropped.67c1d420.jpg",
+    "static/media/index.css": "/midnight-react-profile/static/media/pexels-markus-spiske-193349.f7ecd217.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04c53363.js",
+    "static/css/2.4f8976c6.chunk.css",
+    "static/js/2.07582f86.chunk.js",
+    "static/css/main.8093922a.chunk.css",
+    "static/js/main.6012b781.chunk.js"
+  ]
+}
