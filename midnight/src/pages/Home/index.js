@@ -7,13 +7,17 @@ import "./style.css";
 function Home() {
   return (
     <div className="style" style={{ textAlign: "center"}}>
-      <h2>Greetings!</h2>
+      <h2>Hello, World!</h2>
       <p>
-        Hello my name is Jason Carrazco, I was born in "The City of Broad
-        Shoulders" Chicago, Illinois. I am a hopeful and aspiring fullstack Web
-        Developer with experience as an Independant Contractor and Bicycle
-        Mechanic.
+        Hello! My name is Jason Carrazco. I have recently graduated a Full Stack Web Development program
+        at Northwestern Universty in Chicago, Illinois. I am actively searching for job oppoerutniities 
+        as Junior Web Developer. Some of my hobbies include cylcing, video games, hiking, and real estate development 
+        when I am not creating websites.
       </p>
+      <p>
+        Languages I am Familiar with: HTML, CSS, JavaScript, REACT, BootStrap, node.js, express.js, MySQL, MERN & More
+      </p>
+
       <br></br>
       <div>
         <img
@@ -25,20 +29,9 @@ function Home() {
           src={me}
           alt="Jason Carrazco"
         />
-        <br></br>
       </div>
-      <br></br>
+      <marquee>Arrested Junior Web Development </marquee>
       
-
-      <h3>About Me</h3>
-      <p>
-        I am an aspiring fullstack Web Developer and once I am finished with my
-        fullstack training I plan to pursue software development as next career
-        endeavor. I have many hobbies that inlcude, building/restoring all kinds
-        of bicycles, traveling to park/forest preserves across the state, and
-        participating in organized sports. Although Coding began as a hobby, it
-        quickly evolved into a quest that leaves me in both confusion and awe.
-      </p>
     </div>
   );
 }
