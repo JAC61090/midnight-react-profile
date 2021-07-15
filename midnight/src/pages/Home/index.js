@@ -30,7 +30,6 @@ function Home() {
           alt="Jason Carrazco"
         />
       </div>
-      <marquee>Arrested Junior Web Development </marquee>
       
     </div>
   );
