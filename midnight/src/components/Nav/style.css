@@ -1,12 +1,20 @@
 .Nav {
-   
-    background-color:rgb(167, 224, 145);
-    
+  background-color: rgb(167, 224, 145);
+  font-family: 'Barlow', sans-serif;
+
+}
+body { 
+  padding-top: 80px; 
 
 }
 
 .nav > link {
-    padding-left:30px;
-  padding-right:30px;
-
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&display=swap');
+
+
