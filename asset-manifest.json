@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/midnight-react-profile/static/css/main.8093922a.chunk.css",
-    "main.js": "/midnight-react-profile/static/js/main.94fbf458.chunk.js",
-    "main.js.map": "/midnight-react-profile/static/js/main.94fbf458.chunk.js.map",
+    "main.css": "/midnight-react-profile/static/css/main.a7e2ac4f.chunk.css",
+    "main.js": "/midnight-react-profile/static/js/main.9f401179.chunk.js",
+    "main.js.map": "/midnight-react-profile/static/js/main.9f401179.chunk.js.map",
     "runtime-main.js": "/midnight-react-profile/static/js/runtime-main.04c53363.js",
     "runtime-main.js.map": "/midnight-react-profile/static/js/runtime-main.04c53363.js.map",
-    "static/css/2.4f8976c6.chunk.css": "/midnight-react-profile/static/css/2.4f8976c6.chunk.css",
-    "static/js/2.2e6d3174.chunk.js": "/midnight-react-profile/static/js/2.2e6d3174.chunk.js",
-    "static/js/2.2e6d3174.chunk.js.map": "/midnight-react-profile/static/js/2.2e6d3174.chunk.js.map",
+    "static/css/2.e3178810.chunk.css": "/midnight-react-profile/static/css/2.e3178810.chunk.css",
+    "static/js/2.389a1435.chunk.js": "/midnight-react-profile/static/js/2.389a1435.chunk.js",
+    "static/js/2.389a1435.chunk.js.map": "/midnight-react-profile/static/js/2.389a1435.chunk.js.map",
     "index.html": "/midnight-react-profile/index.html",
-    "static/css/2.4f8976c6.chunk.css.map": "/midnight-react-profile/static/css/2.4f8976c6.chunk.css.map",
-    "static/css/main.8093922a.chunk.css.map": "/midnight-react-profile/static/css/main.8093922a.chunk.css.map",
-    "static/js/2.2e6d3174.chunk.js.LICENSE.txt": "/midnight-react-profile/static/js/2.2e6d3174.chunk.js.LICENSE.txt",
-    "static/media/me-cropped.67c1d420.jpg": "/midnight-react-profile/static/media/me-cropped.67c1d420.jpg",
-    "static/media/index.css": "/midnight-react-profile/static/media/pexels-markus-spiske-193349.f7ecd217.jpg"
+    "static/css/2.e3178810.chunk.css.map": "/midnight-react-profile/static/css/2.e3178810.chunk.css.map",
+    "static/css/main.a7e2ac4f.chunk.css.map": "/midnight-react-profile/static/css/main.a7e2ac4f.chunk.css.map",
+    "static/js/2.389a1435.chunk.js.LICENSE.txt": "/midnight-react-profile/static/js/2.389a1435.chunk.js.LICENSE.txt",
+    "static/media/JAC_Resume.e349f63c.pdf": "/midnight-react-profile/static/media/JAC_Resume.e349f63c.pdf",
+    "static/media/mdb.css": "/midnight-react-profile/static/media/arrow_right.f7c6ac6d.svg",
+    "static/media/all.min.css": "/midnight-react-profile/static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/me-cropped.67c1d420.jpg": "/midnight-react-profile/static/media/me-cropped.67c1d420.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.04c53363.js",
-    "static/css/2.4f8976c6.chunk.css",
-    "static/js/2.2e6d3174.chunk.js",
-    "static/css/main.8093922a.chunk.css",
-    "static/js/main.94fbf458.chunk.js"
+    "static/css/2.e3178810.chunk.css",
+    "static/js/2.389a1435.chunk.js",
+    "static/css/main.a7e2ac4f.chunk.css",
+    "static/js/main.9f401179.chunk.js"
   ]
 }
